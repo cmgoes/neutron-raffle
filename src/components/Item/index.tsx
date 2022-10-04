@@ -7,7 +7,7 @@ const Item = ({
   nftName,
   collectionName,
   nftId,
-  rank,
+  // rank,
   verified,
   isSmall,
   miningPoint,
@@ -19,7 +19,7 @@ const Item = ({
   nftName: string;
   collectionName: string;
   nftId: number;
-  rank: number | string;
+  // rank: number | string;
   verified: boolean;
   isSmall: boolean;
   miningPoint: string;
@@ -74,18 +74,19 @@ const Item = ({
           <Typography
             fontSize={isSmall ? "14px" : "16px"}
             fontWeight="600"
+            mb={isSmall ? "16px" : "24px"}
             color="black"
           >
             {collectionName} #{nftId}
           </Typography>
-          <Typography
+          {/* <Typography
             fontSize={isSmall ? "14px" : "16px"}
             fontWeight="600"
             mb={isSmall ? "16px" : "24px"}
             color="black"
           >
             Rank: {rank}
-          </Typography>
+          </Typography> */}
           <Button variant="contained" color="primary" fullWidth>
             <Typography
               mr="4px"

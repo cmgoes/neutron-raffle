@@ -14,60 +14,60 @@ const sliderItems = [
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: "N/A",
+    // rank: "N/A",
     verified: true,
     miningPoint: "K",
     minintPointColor: "black",
     buttonText: "MP: 15000",
-    buttonSubText: "1125 N/HR",
+    buttonSubText: "1125 P/HR",
   },
   {
     image: nftImage2,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: "N/A",
+    // rank: "N/A",
     verified: true,
     miningPoint: "K",
     minintPointColor: "black",
     buttonText: "MP: 9000",
-    buttonSubText: "675 N/HR",
+    buttonSubText: "675 P/HR",
   },
   {
     image: nftImage3,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 1,
+    // rank: 1,
     verified: true,
-    miningPoint: "X30",
+    miningPoint: "U",
     minintPointColor: "#ff7523",
     buttonText: "MP: 6000",
-    buttonSubText: "450 N/HR",
+    buttonSubText: "450 P/HR",
   },
   {
     image: nftImage4,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: "N/A",
+    // rank: "N/A",
     verified: true,
     miningPoint: "K",
     minintPointColor: "black",
     buttonText: "MP: 5000",
-    buttonSubText: "375 N/HR",
+    buttonSubText: "375 P/HR",
   },
   {
     image: nftImage5,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 450,
+    // rank: 450,
     verified: true,
-    miningPoint: "X5",
+    miningPoint: "B",
     minintPointColor: "#6164ff",
     buttonText: "MP: 1500",
-    buttonSubText: "112 N/HR",
+    buttonSubText: "112 P/HR",
   },
 ];
 
@@ -147,7 +147,7 @@ const ActionFeed = () => {
             >
               -bbryan927
             </Typography>{" "}
-            just hit 7 on the withdraw spin & won 1 Proton token!
+            just hit 7 on the withdraw spin & won 1 Neutron token!
           </Typography>
           <Typography variant="inherit" fontFamily="LucidaSans" mb="8px">
             <Typography
@@ -157,7 +157,7 @@ const ActionFeed = () => {
             >
               -bbryan927
             </Typography>{" "}
-            claimed 349 NeuTron tokens!
+            claimed 349 Proton tokens!
           </Typography>
           <Typography variant="inherit" fontFamily="LucidaSans" mb="8px">
             <Typography
@@ -167,7 +167,7 @@ const ActionFeed = () => {
             >
               -ceb888
             </Typography>{" "}
-            claimed 76 NeuTron tokens!
+            claimed 76 Proton tokens!
           </Typography>
           <Typography variant="inherit" fontFamily="LucidaSans" mb="8px">
             <Typography
@@ -177,7 +177,7 @@ const ActionFeed = () => {
             >
               -sally8
             </Typography>{" "}
-            claimed 208 NeuTron tokens!
+            claimed 208 Proton tokens!
           </Typography>
         </Box>
       </Box>
@@ -207,7 +207,7 @@ const ActionFeed = () => {
                 nftName={item.nftName}
                 collectionName={item.collectionName}
                 nftId={item.nftId}
-                rank={item.rank}
+                // rank={item.rank}
                 verified={item.verified}
                 isSmall={true}
                 miningPoint={item.miningPoint}

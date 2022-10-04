@@ -17,7 +17,7 @@ const Mining = () => {
       }}
     >
       <Typography fontSize="18px" color="white" textAlign="center" py="16px">
-        Every 1000th proton mined triggers Jackpot!
+        Every 1000th Neutron mined triggers Jackpot!
       </Typography>
       <Container maxWidth="xl" sx={{ py: "24px" }}>
         <Box
@@ -58,7 +58,7 @@ const Mining = () => {
                 >
                   -bbryan927
                 </Typography>{" "}
-                just hit 7 on the withdraw spin & won 1 Proton token!
+                just hit 7 on the Neutron spin & won 1 Neutron token!
               </Typography>
               <Typography variant="inherit" fontFamily="LucidaSans" mb="8px">
                 <Typography
@@ -122,7 +122,7 @@ const Mining = () => {
                 >
                   Earned Spins: 5
                 </Typography>
-                <Button variant="contained">Mine Proton</Button>
+                <Button variant="contained">Mine Neutron</Button>
               </Box>
             </Box>
             <Box
@@ -140,7 +140,7 @@ const Mining = () => {
                   color="primary.light"
                   fontSize="28px"
                 >
-                  NeuTron
+                  Proton
                 </Typography>{" "}
                 Mining
               </Typography>
@@ -166,7 +166,7 @@ const Mining = () => {
                         color="primary.light"
                         fontSize="14px"
                       >
-                        NEU
+                        PRO
                       </Typography>
                     </Typography>
                   </Box>
@@ -204,7 +204,7 @@ const Mining = () => {
                       color="primary.light"
                       fontSize="14px"
                     >
-                      NEU
+                      PRO
                     </Typography>
                   </Typography>
                   <Typography color="white" fontSize="14px">
@@ -279,7 +279,7 @@ const Mining = () => {
                 mb="24px"
                 className="card-desc-title"
               >
-                Proton spin history
+                Neutron spin history
               </Typography>
               <Typography variant="inherit" fontFamily="LucidaSans">
                 4
@@ -298,7 +298,7 @@ const Mining = () => {
                 fontFamily="LucidaSans"
                 color="secondary.main"
               >
-                7 (1 Proton Mined) #38
+                7 (1 Neutron Mined) #38
               </Typography>
               <Typography variant="inherit" fontFamily="LucidaSans">
                 0
@@ -311,7 +311,7 @@ const Mining = () => {
                 fontFamily="LucidaSans"
                 color="secondary.main"
               >
-                7 (1 Proton Mined) #35
+                7 (1 Neutron Mined) #35
               </Typography>
               <Typography variant="inherit" fontFamily="LucidaSans">
                 4
@@ -327,7 +327,7 @@ const Mining = () => {
                 fontFamily="LucidaSans"
                 color="secondary.main"
               >
-                7 (1 Proton Mined) #34
+                7 (1 Neutron Mined) #34
               </Typography>
               <Typography variant="inherit" fontFamily="LucidaSans">
                 9
@@ -355,7 +355,7 @@ const Mining = () => {
                 fontFamily="LucidaSans"
                 color="secondary.main"
               >
-                7 (1 Proton Mined) #5
+                7 (1 Neutron Mined) #5
               </Typography>
               <Typography variant="inherit" fontFamily="LucidaSans">
                 1

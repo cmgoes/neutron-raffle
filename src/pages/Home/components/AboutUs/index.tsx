@@ -1,5 +1,7 @@
 import { Box, Container, Typography } from "@mui/material";
 import "./about-us.scss";
+// import LogoImage from "assets/images/logo.png";
+// import TronLogoImage from "assets/images/tron_logo.png";
 
 const AboutUs = () => {
   return (
@@ -40,10 +42,10 @@ const AboutUs = () => {
           community that supported it the most.
         </Typography>
         <Typography variant="inherit" fontWeight="600" color="secondary.main">
-          100% of Neutron tokens have to be mined by staking Tron NFT's
+          100% of Proton tokens have to be mined by staking Tron NFT's
         </Typography>
         <Typography variant="inherit" fontWeight="600" color="secondary.main">
-          100% of Proton tokens have to be mined by winning the Proton Spin
+          100% of Neutron tokens have to be mined by winning the Neutron Spin
         </Typography>
         <Typography variant="inherit" fontWeight="600" color="secondary.main">
           No pre-mined tokens

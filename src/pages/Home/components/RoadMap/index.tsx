@@ -48,7 +48,7 @@ const RoadMap = () => {
         <Step
           image={StepImage1}
           title="NFT Staking"
-          text="Mine Neutron, our platforms future utility token and Proton our multi-use token used for up coming NFT mints and a 1% cut in all marketplace sales"
+          text="Mine Proton, our platforms future utility token and Neutron our multi-use token used for up coming NFT mints and a 1% cut in all marketplace sales"
         />
         <Box sx={{ minWidth: "40px", display: { xs: "none", lg: "block" } }}>
           <ArrowForwardIosOutlinedIcon
@@ -68,7 +68,7 @@ const RoadMap = () => {
         <Step
           image={StepImage3}
           title="NFT Collection Mint"
-          text="Neutron's upcoming NFTs will only be minted with Proton tokens, So don't hold back well staking!"
+          text="Neutron's upcoming NFTs will only be minted with Neutron tokens, So don't hold back well staking!"
         />
         <Box sx={{ minWidth: "40px", display: { xs: "none", lg: "block" } }}>
           <ArrowForwardIosOutlinedIcon

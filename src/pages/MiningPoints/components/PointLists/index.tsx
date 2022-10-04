@@ -56,6 +56,9 @@ const PointLists = () => {
             </Button>   
             <Button className="collection-wrap" sx={{ml: '12px'}} onClick={() =>executeScroll(myRef2)}>
               Kraftly Collections
+            </Button>
+            <Button className="collection-wrap" sx={{ml: '12px'}} onClick={() =>executeScroll(myRef2)}>
+              Uswap Collections
             </Button>             
           </Box>
         </Box>
@@ -79,6 +82,21 @@ const PointLists = () => {
           </Box>
           <Box>
             <Typography
+              fontSize="14px"              
+              sx={{ maxWidth: {sm: '600px', md: '900px', lg: "300px"}, fontFamily: "Audiowide", mx: "auto", color: 'white' }}
+            >
+              Featured Collections:
+            </Typography>
+            <Typography
+              fontSize="14px"
+              mb="16px"
+              sx={{ maxWidth: {sm: '600px', md: '900px', lg: "300px"}, fontFamily: "Audiowide", mx: "auto" }}
+            >
+              Some collections are featured by the Neutron team. Some of these collections are given higher 
+              Mining Points, or will be advertised on our site.                    
+            </Typography>
+
+            {/* <Typography
               fontSize="14px"              
               sx={{ maxWidth: {sm: '600px', md: '900px', lg: "300px"}, fontFamily: "Audiowide", mx: "auto", color: 'white' }}
             >
@@ -126,7 +144,7 @@ const PointLists = () => {
                   </TableRow>                  
                 </TableBody>
               </Table>
-            </TableContainer>
+            </TableContainer> */}
           </Box>
           <Box>
             <Typography
@@ -140,8 +158,9 @@ const PointLists = () => {
               mb="16px"
               sx={{ maxWidth: {sm: '600px', md: '900px', lg: "300px"}, fontFamily: "Audiowide", mx: "auto" }}
             >
-              If a collection is ranked, this represents the Base Mining Points plus the Rarity Rank Multiplier for the top
-              1% of that collection.                     
+              Highest Mining Points: The Big NFT Collections will have a lottery each month to select 
+              a certain number of NFTs in each collection to receive the Highest Mining Points for that 
+              collections.                    
             </Typography>
           </Box>
           <Box>
@@ -183,7 +202,7 @@ const PointLists = () => {
                   Base Mining Points
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', fontSize: "14px", width: '18%', fontFamily: "Audiowide", color: 'white'}}>
-                  Rarity Rank Multiplier
+                  Monthly Lottery Selected
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', fontSize: "14px", width: '18%', fontFamily: "Audiowide", color: 'white'}}>
                   Highest Mining Points
@@ -227,9 +246,9 @@ const PointLists = () => {
                         <Box component="img" src={PickAxeImage} alt="logo" sx={{width: '16px', height: '16px'}} />
                       </Box>
                     </Box>
-                    <Box sx={{display: 'flex', alignItems: 'center', ml: '32px'}}>
+                    {/* <Box sx={{display: 'flex', alignItems: 'center', ml: '32px'}}>
                       <Box component="img" src={SheetImage} alt="logo" sx={{width: '60px', height: '64px'}} />
-                    </Box>
+                    </Box> */}
                   </Box>
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', fontFamily: "Audiowide", textAlign: 'center', 
@@ -239,7 +258,7 @@ const PointLists = () => {
                     position: 'absolute', top: '3px', bottom: '3px', right: '3px', width: '2px', backgroundColor: 'black'
                   }
                 }}>
-                  Full Collection Ranked
+                  N/A
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', 
                   position: 'relative', 
@@ -303,9 +322,9 @@ const PointLists = () => {
                         <Box component="img" src={PickAxeImage} alt="logo" sx={{width: '16px', height: '16px'}} />
                       </Box>
                     </Box>
-                    <Box sx={{display: 'flex', alignItems: 'center', ml: '32px'}}>
+                    {/* <Box sx={{display: 'flex', alignItems: 'center', ml: '32px'}}>
                       <Box component="img" src={SheetImage} alt="logo" sx={{width: '60px', height: '64px'}} />
-                    </Box>
+                    </Box> */}
                   </Box>
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', fontFamily: "Audiowide", textAlign: 'center', 
@@ -315,7 +334,7 @@ const PointLists = () => {
                     position: 'absolute', top: '3px', bottom: '3px', right: '3px', width: '2px', backgroundColor: 'black'
                   }
                 }}>
-                  Top 500 Ranked
+                  N/A
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', 
                   position: 'relative', 
@@ -386,7 +405,7 @@ const PointLists = () => {
                     position: 'absolute', top: '3px', bottom: '3px', right: '3px', width: '2px', backgroundColor: 'black'
                   }
                 }}>
-                  Not Ranked
+                  N/A
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', 
                   position: 'relative', 
@@ -450,9 +469,9 @@ const PointLists = () => {
                         <Box component="img" src={PickAxeImage} alt="logo" sx={{width: '16px', height: '16px'}} />
                       </Box>
                     </Box>
-                    <Box sx={{display: 'flex', alignItems: 'center', ml: '32px'}}>
+                    {/* <Box sx={{display: 'flex', alignItems: 'center', ml: '32px'}}>
                       <Box component="img" src={SheetImage} alt="logo" sx={{width: '60px', height: '64px'}} />
-                    </Box>
+                    </Box> */}
                   </Box>
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', fontFamily: "Audiowide", textAlign: 'center', 
@@ -462,7 +481,7 @@ const PointLists = () => {
                     position: 'absolute', top: '3px', bottom: '3px', right: '3px', width: '2px', backgroundColor: 'black'
                   }
                 }}>
-                  Full Collection Ranked
+                  N/A
                 </TableCell>
                 <TableCell sx={{borderBottom: 'none', 
                   position: 'relative', 

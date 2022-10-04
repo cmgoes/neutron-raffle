@@ -28,12 +28,12 @@ const MiningPoints = () => {
           <Box component="img" src={LogoImage} alt="logo" sx={{width: '100px', height: '100px'}} />
           <Box sx={{maxWidth: {xs: '900px', md: '320px', lg: '360px'}, mt: {xs: '16px', md: '40px'}, mx: 'auto'}}>            
             <Typography color="white" fontFamily="Audiowide" fontSize="20px" mb="16px">
-              The total supply of Neutron will be 21,000,000. these tokens will be 
+              The total supply of Proton will be 21,000,000. these tokens will be 
               released in yearly decreasing increments, as seen in the chart. The earlier you mine 
               the more you can earn.
             </Typography> 
             <Typography color="white" fontFamily="Audiowide" fontSize="20px" mb="4px">
-              You will need Neutron in order to use the upcoming Lottery Marketplace.
+              You will need Proton in order to use the upcoming Lottery Marketplace.
             </Typography>
           </Box>
           <Tokenomics />
@@ -47,11 +47,11 @@ const MiningPoints = () => {
           <Box component="img" src={LogoImage} alt="logo" sx={{width: '100px', height: '100px'}} />
           <Box sx={{maxWidth: {xs: '900px', md: '320px', lg: '360px'}, mt: {xs: '16px', md: '24px'}, mx: 'auto'}}>            
             <Typography color="#6164ff" fontFamily="Audiowide" fontSize="20px" mb="16px">
-              The total supply of Proton will be 21,000,000. These can only be mined by spinning a 7 
-              on the Proton Spin.
+              The total supply of Neutron will be 21,000,000. These can only be mined by spinning a 7 
+              on the Neutron Spin.
             </Typography> 
             <Typography color="#6164ff" fontFamily="Audiowide" fontSize="20px" mb="4px">
-              You will need Protron in order to mint our upcoming NFT collection or to have 
+              You will need Neutron in order to mint our upcoming NFT collection or to have 
               share of 1% of all marketplace sales on the upcoming Lottery Marketplace!
             </Typography>            
           </Box>          
@@ -74,23 +74,23 @@ const MiningPoints = () => {
             Claim Fee
           </Typography>
           <Typography color="secondary.main" fontFamily="Audiowide" mb="4px">
-            Every 24-72 hours a user can claim there earned NeuTron tokens and earn Proton Spins. There is
+            Every 24-72 hours a user can claim there earned Proton tokens and earn Neutron Spins. There is
             fee of 2 Tron per NFT staked in order to claim. Each NFT you successfully claim 
-            , earns you a Proton Spin attempt.
+            , earns you a Neutron Spin attempt.
           </Typography>
           <Typography color="error.main" fontFamily="Audiowide" mb="24px">
-            *** If you do not claim your NeuTron tokens by 72 Hours you will
-            stop mining NeuTron until you successfully claim. ***
+            *** If you do not claim your Proton tokens by 72 Hours you will
+            stop mining Proton until you successfully claim. ***
           </Typography>
           <Typography color="white" fontSize="18px" fontFamily="Audiowide" mb="4px">
             Fee Breakdown
           </Typography>
           <Typography color="secondary.main" fontFamily="Audiowide" mb="16px">
             For each NFT claimed 1 tron is sent to the team and 1 tron is sent 
-            to the Proton Spin Jackpot. This jackpot will continue to 
-            accumulate until the 1000th Proton is mined. Then the jackpot amount is sent to the users wallet who 
-            mined the 1000th Proton.
-            The jackpot will be reset and then will be triggered once the next 1000th Proton is mined.
+            to the Neutron Spin Jackpot. This jackpot will continue to 
+            accumulate until the 1000th Neutron is mined. Then the jackpot amount is sent to the users wallet who 
+            mined the 1000th Neutron.
+            The jackpot will be reset and then will be triggered once the next 1000th Neutron is mined.
           </Typography>
           <Typography color="white" fontFamily="Audiowide" fontSize="18px">
             The Fee's collected by the team will allow us to keep the project running and continue to build. We will be adding to 

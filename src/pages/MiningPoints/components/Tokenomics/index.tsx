@@ -21,52 +21,52 @@ const lists: ListTypes[] = [
   {
     year: 1,
     released: 5000000,
-    dailyRelease: 13687.53,
+    dailyRelease: 13698.63,
   },
   {
     year: 2,
     released: 4000000,
-    dailyRelease: 13687.53,
+    dailyRelease: 10958.90,
   },
   {
     year: 3,
     released: 3000000,
-    dailyRelease: 13687.53,
+    dailyRelease: 8219.18,
   },
   {
     year: 4,
-    released: 2500000,
-    dailyRelease: 13687.53,
+    released: 2000000,
+    dailyRelease: 5479.45,
   },
   {
     year: 5,
     released: 2000000,
-    dailyRelease: 13687.53,
+    dailyRelease: 5479.45,
   },
   {
     year: 6,
-    released: 2000000,
-    dailyRelease: 13687.53,
+    released: 1500000,
+    dailyRelease: 4109.59,
   },
   {
     year: 7,
     released: 1500000,
-    dailyRelease: 13687.53,
+    dailyRelease: 4109.59,
   },
   {
     year: 8,
-    released: 1500000,
-    dailyRelease: 13687.53,
+    released: 1000000,
+    dailyRelease: 2739.73,
   },
   {
     year: 9,
-    released: 1000000,
-    dailyRelease: 13687.53,
+    released: 500000,
+    dailyRelease: 1369.86,
   },
   {
     year: 10,
     released: 500000,
-    dailyRelease: 13687.53,
+    dailyRelease: 1369.86,
   },
 ];
 
@@ -79,7 +79,7 @@ const Tokenomics = () => {
         sx={{ fontSize: { xs: "20px", md: "24px" } }}
         mb="8px"
       >
-        Neutron
+        Proton
       </Typography>
       <TableContainer component={Paper}>
         <Table size="small">

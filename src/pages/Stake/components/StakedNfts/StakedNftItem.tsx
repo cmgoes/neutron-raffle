@@ -75,14 +75,14 @@ const StakedNftItem = () => {
       <TableRow sx={{ backgroundColor: "common.black" }}>
         <TableCell colSpan={4} sx={{ p: "4px 16px", borderBottom: "none" }}>
           <Typography component="span" color="white" fontSize="14px" mr="16px">
-            MP: 15000 1125N/HR
+            MP: 15000 1125P/HR
           </Typography>
           <Typography component="span" color="white" fontSize="14px" mr="16px">
             FOX #2181
           </Typography>
-          <Typography component="span" color="white" fontSize="14px">
+          {/* <Typography component="span" color="white" fontSize="14px">
             RANK #2215
-          </Typography>
+          </Typography> */}
         </TableCell>
       </TableRow>
     </>

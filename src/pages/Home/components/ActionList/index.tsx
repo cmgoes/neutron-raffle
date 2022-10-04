@@ -17,84 +17,84 @@ const sliderItems = [
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 11362,
+    // rank: 11362,
     verified: true,
     miningPoint: "B",
     minintPointColor: "green",
     buttonText: "MP: 40",
-    buttonSubText: "3 N/HR",
+    buttonSubText: "3 P/HR",
   },
   {
     image: nftImage2,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 7295,
+    // rank: 7295,
     verified: true,
     miningPoint: "B",
     minintPointColor: "green",
     buttonText: "MP: 60",
-    buttonSubText: "4.5 N/HR",
+    buttonSubText: "4.5 P/HR",
   },
   {
     image: nftImage3,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 2104,
+    // rank: 2104,
     verified: true,
-    miningPoint: "X2",
+    miningPoint: "K",
     minintPointColor: "#5164ff",
     buttonText: "MP: 200",
-    buttonSubText: "15 N/HR",
+    buttonSubText: "15 P/HR",
   },
   {
     image: nftImage4,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 2323,
+    // rank: 2323,
     verified: true,
     miningPoint: "B",
     minintPointColor: "green",
     buttonText: "MP: 200",
-    buttonSubText: "15 N/HR",
+    buttonSubText: "15 P/HR",
   },
   {
     image: nftImage5,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 4395,
+    // rank: 4395,
     verified: true,
     miningPoint: "B",
     minintPointColor: "green",
     buttonText: "MP: 60",
-    buttonSubText: "4.5 N/HR",
+    buttonSubText: "4.5 P/HR",
   },
   {
     image: nftImage6,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 7050,
+    // rank: 7050,
     verified: true,
-    miningPoint: "X5",
+    miningPoint: "U",
     minintPointColor: "#6164ff",
     buttonText: "MP: 1000",
-    buttonSubText: "75 N/HR",
+    buttonSubText: "75 P/HR",
   },
   {
     image: nftImage7,
     nftName: "Ghostface Gen 2",
     collectionName: "Ghostface",
     nftId: 4124,
-    rank: 5063,
+    // rank: 5063,
     verified: true,
-    miningPoint: "X30",
+    miningPoint: "K",
     minintPointColor: "#ff7523",
     buttonText: "MP: 6000",
-    buttonSubText: "450 N/HR",
+    buttonSubText: "450 P/HR",
   },
 ];
 
@@ -162,7 +162,7 @@ const ActionList = () => {
                 nftName={item.nftName}
                 collectionName={item.collectionName}
                 nftId={item.nftId}
-                rank={item.rank}
+                // rank={item.rank}
                 verified={item.verified}
                 isSmall={true}
                 miningPoint={item.miningPoint}
@@ -187,9 +187,10 @@ const ActionList = () => {
               Mining Points
             </Typography>
             <Typography>
-              Each NFT can mine Neutron at different rates based off the cost to
-              mint the NFT and in some collections, the rarity of each
-              individual NFT in that collection.
+              Each NFT can mine Proton tokens at different rates based off the cost to mint 
+              and amount of NFT’s in each collection. In most cases there are Base Mining Points 
+              and then each month a few NFT’s in each collection will be selected to get a bonus 
+              mining rate “Highest Mining Rate”. See “Mining Points” on other page.
             </Typography>
           </Box>
         </Box>
@@ -203,9 +204,9 @@ const ActionList = () => {
             </Typography>
             <Typography>
               We have set up a token supply that is in complete control of the
-              users and benefits people who help build Neutron in its early
+              users and benefits people who help build Proton in its early
               stages! We have a 10-year mining plan in order to mine all
-              21,000,000 Neutron tokens. Proton token mining is set up a little
+              21,000,000 Proton tokens. Neutron token mining is set up a little
               bit differently. Both Tokens can only be mined by staking NFT’s
               for time.
             </Typography>
@@ -236,8 +237,8 @@ const ActionList = () => {
             </Typography>
             <Typography>
               Stake Popular Tron NFT's To Earn Neutron and Proton Tokens!
-              Neutron tokens will be used in our upcoming Lottey Marketplace.
-              Proton tokens will recieve a 1% weekly drop of any sale that
+              Proton tokens will be used in our upcoming Lottey Marketplace.
+              Neutron tokens will recieve a 1% weekly drop of any sale that
               occurs on the upcoming Lottey Marketplace and will be the only
               means to mint our upcoming NFT's.
             </Typography>

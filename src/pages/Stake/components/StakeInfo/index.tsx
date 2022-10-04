@@ -23,19 +23,19 @@ const StakeInfo = () => {
           </Typography>
           <Typography fontSize="18px" mb="16px">
             Minimum staking peirod 7 days, with no maximum duration. Each NFT
-            Mines Neutron at different rates. (see mining points chart)
+            Mines Proton at different rates. (see mining points chart)
           </Typography>
           <Typography fontSize="18px" mb="16px">
-            Each NFT accumulates Neutron tokens over time and must be claimed
+            Each NFT accumulates Proton tokens over time and must be claimed
             once every 72 hours or they will stop mining for you.
           </Typography>
           <Typography fontSize="18px" mb="16px">
-            You earn Proton Spins every time you sucessfully claim your mined
-            Neutron. 1 Proton Spin for every NFT you have staked.
+            You earn Neutron Spins every time you sucessfully claim your mined
+            Proton. 1 Neutron Spin for every NFT you have staked.
           </Typography>
           <Typography fontSize="18px" mb="32px">
             There is a Fee of 2 Tron per NFT staked in order to claim mined
-            Neutron. (See fees on Mining Points Page)
+            Proton. (See fees on Mining Points Page)
           </Typography>
           <Box className="card-info">
             <Box className="card-info-item">
