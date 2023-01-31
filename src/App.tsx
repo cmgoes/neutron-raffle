@@ -4,6 +4,8 @@ import Home from "pages/Home";
 import Stake from "pages/Stake";
 import MiningPoints from "pages/MiningPoints";
 
+//This is to connect TronLink wallet
+//stake, mint...
 function App() {
   return (
     <>
